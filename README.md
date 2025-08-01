@@ -1,21 +1,26 @@
-# 📝 Task Manager App
+# Task Manager Web Application
 
-A full-stack task management web application with user authentication, built using:
+This is a full-stack Task Management web application built with:
 
-- **Frontend:** React (Vite) + TailwindCSS
-- **Backend:** Node.js + Express
-- **Database:** MongoDB (native driver)
-
-## 📦 Features
-
-- 🔐 Register and Login (JWT-based authentication)
-- ✅ Add, update, delete, and list tasks
-- 🧠 Protected routes and token verification
-- 🎨 Clean and responsive UI
+- **Frontend:** React + Vite + Tailwind CSS
+- **Backend:** Node.js + Express + MongoDB (with Mongoose)
+- **Authentication:** JWT (Register/Login)
+- **Data Handling:** Native MongoDB Driver or Mongoose (depending on version)
+- **Deployment:** Frontend on Netlify (optional), backend runs locally
 
 ---
 
+## 🔐 Features
 
+- ✅ User Registration with hashed passwords (bcrypt)
+- ✅ User Login with JWT authentication
+- ✅ Protected Routes (Tasks only visible after login)
+- ✅ Add, Edit, Delete personal tasks
+- ✅ Responsive UI using Tailwind CSS
+- ✅ Clean form validation and error handling
+- ✅ Centralized form design for login/register/tasks
+- ✅ Persistent login using `localStorage`
 
-### 📁 Project Structure
+---
+
 
